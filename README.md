@@ -30,7 +30,7 @@ Your automated market making strategy software to improve your crypto market liq
 ### Docker
 
 ```shell
-pull drakkarsoftware/octobot-market-making:stable
+pull drakkarsoftware/octobot:marketmaking-stable
 ```
 
 ### Python
