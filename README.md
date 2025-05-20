@@ -8,7 +8,7 @@ Your automated market making strategy software to improve your crypto market liq
 - Using a fully transparent open source market making automation algorithm
 - For free, with an open source trading bot
 
-![octobot market making preview](docs/octobot-market-making-preview.gif)
+![octobot market making preview](https://raw.githubusercontent.com/Drakkar-Software/OctoBot-Market-Making/master/docs/octobot-market-making-preview.gif)
 
 ## Market making for crypto projects
 
@@ -23,7 +23,7 @@ Your automated market making strategy software to improve your crypto market liq
 - Earn exchange’s liquidity provider rewards by participating in liquidity providing campaigns
 - Farm volume-based airdrops, like the 2025 Hyperliquid HYPE airdrop.
 
-![octobot market making dashboard with buy and sell orders](docs/octobot-market-making-dashboard-with-buy-and-sell-orders.png)
+![octobot market making dashboard with buy and sell orders](https://raw.githubusercontent.com/Drakkar-Software/OctoBot-Market-Making/master/docs/octobot-market-making-dashboard-with-buy-and-sell-orders.png)
 
 ## Installation
 
@@ -50,7 +50,7 @@ It leverages the automated trading en strategy engine of OctoBot to create and m
 
 Simply configure your market making strategy details such as your exchange and pair, how many orders to include, the target bid-ask spread or even your coin reference price from another exchange.
 
-![octobot market making strategy configuration](docs/octobot-market-making-strategy-configuration.png)
+![octobot market making strategy configuration](https://raw.githubusercontent.com/Drakkar-Software/OctoBot-Market-Making/master/docs/octobot-market-making-strategy-configuration.png)
 
 ## What’s included
 
@@ -72,7 +72,7 @@ Using another exchange as reference price will synchronize your bot’s order bo
 
 OctoBot Market Making comes with a built-in trading simulator which you can use to configure your strategy and test it before connecting your bot to a real exchange account
 
-![octobot market making paper trading configuration](docs/octobot-market-making-paper-trading-configuration.png)
+![octobot market making paper trading configuration](https://raw.githubusercontent.com/Drakkar-Software/OctoBot-Market-Making/master/docs/octobot-market-making-paper-trading-configuration.png)
 
 ## Going further
 

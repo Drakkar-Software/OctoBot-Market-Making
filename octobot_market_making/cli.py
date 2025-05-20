@@ -13,8 +13,16 @@
 #
 #  You should have received a copy of the GNU General Public
 #  License along with OctoBot. If not, see <https://www.gnu.org/licenses/>.
-import octobot_market_making.cli
+import sys
+import octobot.cli
+
+import octobot_market_making.constants
 
 
-if __name__ == '__main__':
-    octobot_market_making.cli.main()
+def main():
+    # Start OctoBot with a default config file configured to use
+    # the market making distribution and profile
+    octobot.cli.main(
+        sys.argv[1:],
+        default_config_file=octobot_market_making.constants.DEFAULT_CONFIG_FILE
+    )
