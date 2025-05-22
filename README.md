@@ -1,7 +1,5 @@
 # OctoBot Market Making
 
-Version [2.0.9](https://github.com/Drakkar-Software/OctoBot-Market-Making/blob/master/CHANGELOG.md)
-
 Your automated market making strategy software to improve your crypto market liquidity.
 
 - On more than 15 supported exchanges
@@ -79,3 +77,22 @@ OctoBot Market Making comes with a built-in trading simulator which you can use 
 OctoBot Market Making is the backbone of [OctoBot cloud Market Making](https://market-making.octobot.cloud/?utm_source=github&utm_medium=dk&utm_campaign=regular_open_source_content&utm_content=going_further_1), a self-service market making automation platform. 
 
 If you enjoy OctoBot Market Making and wish to automate more complex market making strategies or if you are looking for more capabilities in your market making requirements, [OctoBot cloud Market Making](https://market-making.octobot.cloud/?utm_source=github&utm_medium=dk&utm_campaign=regular_open_source_content&utm_content=going_further_2) might be the right platform for you.
+
+## Hardware requirements  
+- CPU : 1 Core / 1GHz  
+- RAM : 250 MB  
+- Disk : 1 GB
+
+## Disclaimer
+Do not risk money which you are afraid to lose. USE THE SOFTWARE AT YOUR OWN RISK. THE AUTHORS 
+AND ALL AFFILIATES ASSUME NO RESPONSIBILITY FOR YOUR TRADING RESULTS. 
+
+Always start by running a trading bot in simulation mode and do not engage money
+before you understand how it works and what profit/loss you should expect.
+
+Please feel free to read the source code and understand the mechanism of this bot.
+
+## License
+GNU General Public License v3.0 or later.
+
+See [GPL-3.0 LICENSE](https://github.com/Drakkar-Software/OctoBot-Market-Making/blob/master/LICENSE) to see the full text.
