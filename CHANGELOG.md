@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The version number of OctoBot Market Making is mirroring the version number
 of its [OctoBot](https://github.com/Drakkar-Software/OctoBot) dependency.
 
+## [2.0.16] - 2025-12-29
+### Added
+- Update to OctoBot 2.0.16
+
 ## [2.0.15] - 2025-12-10
 ### Added
 - Update to OctoBot 2.0.15
