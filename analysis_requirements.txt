@@ -1,0 +1,5 @@
+orjson>=3.10,<4
+numpy>=2.2,<3
+scipy>=1.15,<2
+scikit-learn>=1.6,<2
+hmmlearn>=0.3.3,<0.4

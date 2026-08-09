@@ -1,0 +1,18 @@
+[Unit]
+Description=OctoBot resumable futures historical-data backfill
+After=network-online.target octobot-market-data.service
+ConditionPathIsMountPoint=/mnt/shared
+
+[Service]
+Type=simple
+WorkingDirectory=/home/solek/Downloads/OctoBot-Market-Making
+ExecStart=/home/solek/Downloads/OctoBot-Market-Making/.venv-data/bin/python -m octobot_market_making.data_collector.historical --output /mnt/shared/crypto_market_making/historical --sources binance,bybit,htx --workers 4 --recent-days 62 --min-free-gb 200
+Restart=always
+RestartSec=21600
+KillSignal=SIGINT
+TimeoutStopSec=90
+Environment=PYTHONUNBUFFERED=1
+LimitNOFILE=65536
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,18 @@
+{
+  "symbols": [
+    "BTC", "ETH", "BCH", "SOL", "DOGE", "XRP", "LTC",
+    "ADA", "BNB", "SUI", "LINK", "AVAX", "AAVE", "UNI",
+    "HYPE", "NEAR", "ENA", "ZEC", "FIL", "XLM", "ONDO"
+  ],
+  "venues": [
+    "gate", "htx", "binance", "okx", "bybit", "hyperliquid", "mexc",
+    "binance_spot", "okx_spot"
+  ],
+  "quote_assets": ["USDT", "USDC"],
+  "output_dir": "market_data",
+  "rotation_minutes": 60,
+  "compression_level": 3,
+  "queue_size": 100000,
+  "metrics_interval_seconds": 60,
+  "metadata_interval_seconds": 3600
+}

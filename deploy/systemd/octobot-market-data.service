@@ -1,0 +1,18 @@
+[Unit]
+Description=OctoBot multi-venue USDT/USDC perpetual market-data recorder
+After=network-online.target
+ConditionPathIsMountPoint=/mnt/shared
+
+[Service]
+Type=simple
+WorkingDirectory=/home/solek/Downloads/OctoBot-Market-Making
+ExecStart=/home/solek/Downloads/OctoBot-Market-Making/.venv-data/bin/python -m octobot_market_making.data_collector --config /home/solek/Downloads/OctoBot-Market-Making/market_data_config.example.json --output /mnt/shared/crypto_market_making/live
+Restart=on-failure
+RestartSec=15
+KillSignal=SIGINT
+TimeoutStopSec=30
+Environment=PYTHONUNBUFFERED=1
+LimitNOFILE=65536
+
+[Install]
+WantedBy=default.target
